@@ -13,7 +13,8 @@ $ cd test-laravelapp
 
 ```
 $ composer global require laravel/installer
-
+$ cp .env.example .env
+$ php artisan key:generate
 ```
 
 ### 3. Install Dependencies
